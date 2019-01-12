@@ -1,0 +1,294 @@
+<VisioDocument xmlns="urn:schemas-microsoft-com:office:visio">
+	<DocumentProperties>
+		<Title>登录流程</Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="页-1" NameU="页-1">
+			<Shapes>
+				<Shape ID="1" UniqueID="{3F5DFF78-284B-46A7-B512-A42E02A87D7D}" Name="判定" NameU="Decision" Master="0">
+					<Text>用户名或者密码是否为空</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">7.874015748031496</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="2" UniqueID="{33C495A0-97E1-4E02-BCE8-95CB4CDD7F0F}" Name="终结符" NameU="Terminator" Master="2">
+					<Text>开始</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">9.645669291338582</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="3" UniqueID="{C803CB4E-9BBE-4FBD-B345-283425C4AF05}" Name="动态连接线" NameU="Dynamic connector" Master="3">
+					<XForm>
+						<PinX Unit="MM">3.149606299212598</PinX>
+						<PinY Unit="MM">7.874015748031496</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{37817F0C-7098-4AE6-998E-5E1600B02026}" Name="动态连接线.4" NameU="Dynamic connector.4" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">9.251968503937007</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{39F59E69-A461-4E20-A089-ECF42BEE31E1}" Name="动态连接线.5" NameU="Dynamic connector.5" Master="3">
+					<Text>是</Text>
+					<XForm>
+						<PinX Unit="MM">3.641732283464567</PinX>
+						<PinY Unit="MM">8.169291338582678</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{E7A0BD3D-FF17-4100-AEC4-ED2FDF3C1541}" Name="进程" NameU="Process" Master="4">
+					<Text>输入用户名和密码</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">8.759842519685039</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="7" UniqueID="{7E1F70F5-B861-4768-BFC5-025AC2D7825E}" Name="动态连接线.7" NameU="Dynamic connector.7" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">8.316929133858267</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{A318E46E-D625-453C-A04D-CC8FA42A9B1D}" Name="进程.8" NameU="Process.8" Master="4">
+					<Text>提示用户名或者密码为空</Text>
+					<XForm>
+						<PinX Unit="MM">4.133858267716535</PinX>
+						<PinY Unit="MM">8.759842519685039</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="9" UniqueID="{1FD69F79-E67C-40EF-9D79-24AA87103BDF}" Name="动态连接线.9" NameU="Dynamic connector.9" Master="3">
+					<XForm>
+						<PinX Unit="MM">3.395669291338582</PinX>
+						<PinY Unit="MM">9.153543307086615</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{C9876737-A120-4614-8BBD-821E5D5339DB}" Name="进程.10" NameU="Process.10" Master="4">
+					<Text>输入验证码</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">6.889763779527558</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="11" UniqueID="{F2633EBA-B6F0-495B-AFB2-69A323870E38}" Name="判定.11" NameU="Decision.11" Master="0">
+					<Text>验证码是否为空</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">5.905511811023619</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="12" UniqueID="{D7531EF6-38A0-474A-9F54-22CA685656D7}" Name="进程.12" NameU="Process.12" Master="4">
+					<Text>提示验证码为空，重新输入</Text>
+					<XForm>
+						<PinX Unit="MM">4.133858267716535</PinX>
+						<PinY Unit="MM">6.889763779527558</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="13" UniqueID="{A2D6BEE1-5804-4212-8922-A380DA91A0D6}" Name="动态连接线.13" NameU="Dynamic connector.13" Master="3">
+					<Text>否</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">7.381889763779527</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{F75CB75B-3260-4E1D-AC0B-C6AA1F1E3B60}" Name="动态连接线.14" NameU="Dynamic connector.14" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">6.397637795275588</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{003B67FC-1507-498B-83C5-566307295B9C}" Name="动态连接线.15" NameU="Dynamic connector.15" Master="3">
+					<Text>是</Text>
+					<XForm>
+						<PinX Unit="MM">3.641732283464567</PinX>
+						<PinY Unit="MM">6.249999999999997</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{B432F535-B068-47EC-99BD-03EC2083DCBE}" Name="动态连接线.16" NameU="Dynamic connector.16" Master="3">
+					<XForm>
+						<PinX Unit="MM">3.395669291338582</PinX>
+						<PinY Unit="MM">7.332677165354330</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{8686DC76-ADB1-4916-97DC-366E7F2BD11A}" Name="判定.17" NameU="Decision.17" Master="0">
+					<Text>验证码正确与否</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">5.019685039370078</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="18" UniqueID="{2F5B608B-4748-450E-9F72-05653D65A04B}" Name="动态连接线.18" NameU="Dynamic connector.18" Master="3">
+					<Text>否</Text>
+					<XForm>
+						<PinX Unit="MM">2.165354330708661</PinX>
+						<PinY Unit="MM">5.954724409448819</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="19" UniqueID="{5EBDBDDC-1D03-4575-9B2F-72213F4A2454}" Name="动态连接线.19" NameU="Dynamic connector.19" Master="3">
+					<Text>否</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">5.462598425196848</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{698B8187-F465-43E7-8AB5-FB1F467CC3A2}" Name="判定.20" NameU="Decision.20" Master="0">
+					<Text>用户名密码是否正确</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">4.133858267716537</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="21" UniqueID="{1E263FF8-49C5-4AF0-89FC-445052CE0579}" Name="动态连接线.21" NameU="Dynamic connector.21" Master="3">
+					<Text>错误</Text>
+					<XForm>
+						<PinX Unit="MM">2.165354330708661</PinX>
+						<PinY Unit="MM">6.446850393700788</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{DDDB9F29-CA31-4090-8BEF-F61058054AE1}" Name="动态连接线.22" NameU="Dynamic connector.22" Master="3">
+					<Text>是</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">4.576771653543307</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="23" UniqueID="{E59FB957-786D-43AA-85E7-9C965C8DA6E5}" Name="终结符.23" NameU="Terminator.23" Master="2">
+					<Text>结束</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">3.248031496062996</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>成本</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>持续时间</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>资源</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="24" UniqueID="{5717E9FD-D6AB-471A-8A05-B4A0E7A7CA45}" Name="动态连接线.24" NameU="Dynamic connector.24" Master="3">
+					<Text>正确</Text>
+					<XForm>
+						<PinX Unit="MM">2.657480314960630</PinX>
+						<PinY Unit="MM">3.641732283464570</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>
