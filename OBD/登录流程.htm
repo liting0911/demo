@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>登录流程</title>
+  <META NAME="标题" CONTENT="登录流程">
+  <META NAME="主题" CONTENT="">
+  <META NAME="作者" CONTENT="Administrator">
+  <META NAME="经理" CONTENT="">
+  <META NAME="公司" CONTENT="Home">
+  <META NAME="类别" CONTENT="">
+  <META NAME="关键字" CONTENT="">
+  <META NAME="说明" CONTENT="">
+
+<script>
+<!--
+var appVer = navigator.appVersion;
+var msie = appVer.indexOf( "MSIE " );
+var msieWin31 = (appVer.indexOf( "Windows 3.1" ) >= 0)
+var isMac = (appVer.indexOf("Macintosh") >= 0);
+var ver = 0;
+
+if( msie >= 0 )
+	ver = parseFloat(appVer.substring(msie + 5, appVer.indexOf(";", msie)));
+else
+	ver = parseInt(appVer);
+
+var loadPage = true;
+
+if ( !(!msieWin31 && ((msie >= 0 && ver >= 4.0) || (msie < 0 && ver >= 4))) )
+{
+	if (window.confirm("您的浏览器不支持此网页要求的功能。是否仍要装载此页？"))
+		window.location.href = "登录流程_files/登录流程_gif_1.htm";
+
+	loadPage = false;
+}
+
+if ( loadPage )
+{
+	if( msie >= 0 && ( (isMac && ver>=5) || (!isMac && ver>=4) ) )
+		window.location.replace("登录流程_files/登录流程_框架.htm");
+	else
+	{
+		if ( !msieWin31 && ((msie >= 0 && ver >= 3.02) || (msie < 0 && ver >= 3)) )
+			window.location.replace("登录流程_files/登录流程_框架.htm");
+		else
+			window.location.href = "登录流程_files/登录流程_框架.htm";
+	}
+}
+//-->
+</script>
+</head>
+
+<frameset>
+ <noframes>
+  <body>
+  <p>此页要求浏览器支持框架，而您的浏览器不支持。</p>
+  </body>
+ </noframes>
+</frameset>
+</html>
+
